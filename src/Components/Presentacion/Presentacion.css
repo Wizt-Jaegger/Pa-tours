@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Parisienne&display=swap');
+.presentacion {
+    width: 100%;
+    min-height: 100vh;
+    background-image: radial-gradient(
+        at right center,
+        hsla(202, 94%, 14%, 0.74),
+        hsla(213, 60%, 6%, 0.973),
+        hsla(0, 0%, 0%, 0.932)
+    ),
+    radial-gradient(
+        at right center,
+        hsla(236, 80%, 8%, 0.8),
+        transparent,
+        hsla(216, 45%, 6%, 0.7)
+    ),
+    url('../../assets/presentacion.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentacion .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-right: 70px;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.presentacion-texto {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.saludo {
+    font-size: 18px;
+    color: #beac06;
+    margin-bottom: 1.5rem;
+}
+
+.slogan {
+    font-family: "Alex Brush", serif;
+    font-size: clamp(1.3rem, 1.5rem + 3.3vw, 4rem);
+    font-weight: 400;
+    line-height: 1.3;
+    padding-bottom: 2.5rem;
+}
+
+.descripcion {
+    font-size: 1.2rem;
+    color: #bbbbbb;
+    padding-bottom: 2rem;
+}
+
+.presentacion-img {
+    margin-left: 22rem;
+    position: relative;
+}
+
+.border {
+    width: 36rem;
+    height: 48rem;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 20px; 
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease-in-out;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.06);
+}
+
+/*--------media queries------------*/
+@media(max-width:1500px){
+    .presentacion-img {
+        margin-left: 13rem;
+    }
+}
+@media(max-width:1300px){
+    .presentacion-img {
+        margin-left: 7.5rem;
+    }
+    .border {
+        width: 27rem;
+        height: 36rem;
+    }
+}
+@media(max-width:1000px){
+    .presentacion-img {
+        margin-left: 2rem;
+    }
+    .border {
+        width: 24rem;
+        height: 32rem;
+    }
+}
+@media(max-width:900px){
+    .presentacion-img {
+        margin-left: 1.5rem;
+    }
+    .border {
+        width: 18rem;
+        height: 24rem;
+    }
+}
+
+@media(max-width:800px){
+    .presentacion-img {
+        margin-left: 1.2rem;
+    }
+    .border {
+        width: 12rem;
+        height: 16rem;
+    }
+}
+@media(max-width:620px){
+    .border {
+        display: none;
+    }
+}
+@media(max-width:400px){
+    .saludo{
+        font-size: 14px;
+    }
+    .descripcion {
+        font-size: 1rem;
+    }
+    .presentacion-texto {
+        padding-right: 23px;
+        padding-left: 23px;
+    }
+}
+
