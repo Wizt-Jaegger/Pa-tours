@@ -71,7 +71,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link to="modelosCamionetas" smooth={true} offset={-170} duration={500}>
+                        <Link to="modelosCamionetas" smooth={true} offset={-200} duration={500}>
                             Modelos
                         </Link>
                     </li>
@@ -80,14 +80,15 @@ const Navbar = () => {
                             Galería
                         </Link>
                     </li>
-                    <li>
-                        <Link to="metodosPago" smooth={true} offset={-170} duration={500}>
-                            Pago
-                        </Link>
-                    </li>
+                    
                     <li>
                         <Link to="testimonios" smooth={true} offset={-260} duration={500}>
                             Opiniones
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="metodosPago" smooth={true} offset={-200} duration={500}>
+                            Pago
                         </Link>
                     </li>
                     <li>
