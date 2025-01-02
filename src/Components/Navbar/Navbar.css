@@ -80,7 +80,7 @@ nav ul li.active {
     display: flex; 
     position: fixed !important;
     bottom: 20px !important;
-    right: 50% !important;
+    left: 46%;
     background: rgba(19, 24, 0, 0.0) !important;
     color: #beac06 !important;
     font-size: 2.2rem !important;
@@ -95,6 +95,11 @@ nav ul li.active {
 
 .menu-icon{
     display: none;
+}
+@media(max-height:420px){
+    .botonUp{
+        left: 20px !important;
+    }
 }
 
 @media(max-width:1200px){

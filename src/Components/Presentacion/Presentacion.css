@@ -152,4 +152,24 @@
         padding-left: 23px;
     }
 }
-
+@media(max-height:420px){
+    .saludo {
+        font-size: 0px;
+        color: #beac06;
+        margin-bottom: 0;
+        display: none;
+    }
+    .slogan {
+        padding-bottom: 1rem;
+    }
+    .descripcion {
+        font-size: 1rem;
+    }
+    /*.presentacion-img {
+        max-height: 290px;
+    }*/
+    .border{
+        width: 12rem;
+        height: 16rem;
+    }
+}
