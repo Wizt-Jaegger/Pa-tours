@@ -58,7 +58,10 @@ const Navbar = () => {
 
             {/* Navbar */}
             <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
+            <Link to="presentacion" smooth={true} offset={0} duration={500}>
                 <img src={logo} alt="logo Sorelu" className="logo" />
+            </Link>
+                
                 <ul className={mobileMenu ? '':'hide-mobile-menu'} >
                     <li className="active">
                         <Link to="presentacion" smooth={true} offset={0} duration={500}>
