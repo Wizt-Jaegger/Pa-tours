@@ -165,9 +165,10 @@
     .descripcion {
         font-size: 1rem;
     }
-    /*.presentacion-img {
-        max-height: 290px;
-    }*/
+    .presentacion{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
     .border{
         width: 12rem;
         height: 16rem;
