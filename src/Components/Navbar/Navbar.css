@@ -101,7 +101,12 @@ nav ul li.active {
         left: 20px !important;
     }
 }
-
+@media(max-width:1280px){
+    nav ul li, nav ul li.active:hover{
+        font-size: 17px;
+        margin: 13px 18px;
+    }
+}
 @media(max-width:1200px){
     .logo{
         width: 210px;
